@@ -1,22 +1,20 @@
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {}
 
 body {
     font-family: 'Bai Jamjuree', sans-serif;
     font-size: 18px;
     text-align: center;
+    
 }
 
 p {
-    font-size: 1rem;
+    font-size: 24px;
     opacity: 0.7;
-    text-align: unset;
 }
 
 h1,
 h2,
 h3 {
     font-family: 'Bai Jamjuree', sans-serif;
-    font-weight: 600px;
     opacity: 0.7;
 }
 
@@ -24,11 +22,6 @@ h3 {
     font-size: 11px;
     text-align: center;
 }
-
-#logo {
-    text-align: center;
-}
-
 
 .lien {
     color: hsl(228, 45%, 44%);
@@ -42,11 +35,10 @@ h3 {
 
 
 .header {
-    padding-top: 60px;
+    padding-top: 50px;
     background-image: url('images/bg-header-desktop.png');
-    background-size: contain;
-
-    text-align: center;
+    width: 100rem;
+   
 }
 
 
@@ -91,16 +83,16 @@ button:hover {
 }
 
 #block3 {
-    margin-top: 5rem;
-    display: flex;
-
+  margin-top: 10rem;
+  display: flex;
+  text-align: justify;
+ 
 }
 
-#sous_block {
-    margin: 5rem;
-    margin-left: 5rem;
-    display: block;
-    text-align: justify;
+
+.sous_block {
+    margin-top: 5rem;
+    margin-left: 9rem;
 
 }
 
@@ -118,6 +110,7 @@ button:hover {
 #block5 {
     padding: 2rem;
     margin-top: 2rem;
+    margin-left: 55px;
     text-align: center;
 
 }
@@ -131,28 +124,28 @@ button:hover {
 
     padding-right: 7rem;
     padding-top: 3rem;
-    display: flex;
+   display: block;
 }
 
-.sous_block2 {
-    padding: 5rem;
-}
+
 
 #block6 {
     margin-top: 3rem;
     display: flex;
-    margin-left: 40rem;
+   text-align: center;
+   margin-left: 15rem;
     margin-bottom: 3rem;
 }
 
 .logo3 {
 
-    height: 2rem;
+    height: 3rem;
     padding: 1rem;
 }
 
 .block7 {
     padding: 2rem;
+    margin: 2rem;
     text-align: center;
 }
 
@@ -182,6 +175,8 @@ button:hover {
 
 
 .icon_sociaux {
+    
+    
     margin-top: 6rem;
     display: flex;
     margin-left: 55rem;
@@ -212,14 +207,86 @@ a {
 }
 
 footer {
-    font-weight: 90;
+    width: 100rem;
+    height: 50%;
     background-color: rgba(0, 255, 255, 0.1);
 
 }
+@media screen and (min-width:370px){
+    body{
+text-align: center;
+    }
+    .header{
+        background-image: url('images/bg-header-mobile.png');
+    background-repeat: no-repeat;
+    
+    padding: 2rem;
+    }
+    #logo{
+        margin-right: 80rem;
+    }
+    #block3 {
+        margin-top: 10rem;
+        display: block;
+       
+      }
+      .computer{
+        width: 20rem;
+      }
+      .sous_block {
 
-@media scren and (max-width:1440px) {
-   body{
-    font-size: 90px;
-   }
+     margin-left: 3rem;
+        
+    }
+   
+    #device{
+        width: 20rem;
+    }
+    #block5 {
+       
+        text-align: center;
+    
+    }
+    .sous_block1 {
+        padding: 0;
+    }
+    .icon {
+     padding-left: 6rem;
+      
+    }
+    
+#block6 {
+  
+    display: block;
+   margin-left: 5rem;
+    margin-bottom: 3rem;
+}
+footer {
+    width: 20rem;
+  
+}
+.block8 {
+    display: block;
+    margin-right: 4rem;
+    margin-left: 4rem;
 
 }
+.foot {
+    margin-top: 2rem;
+    padding-left: 3rem;
+    text-align: justify;
+
+}
+
+
+.icon_sociaux {
+    margin-top: 2rem;
+    display: flex;
+    margin-left: 2rem;
+
+}
+    
+
+}
+
+
